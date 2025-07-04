@@ -1,321 +1,265 @@
 const config = {
   meta: {
-    pageTitle: "Toronto Home Sellers Workshop - Limited Spots Available",
+    pageTitle: "Toronto First-Time Buyer Speed Seminar - Secure Your Spot",
     description:
-      "Free 90-minute workshop for Toronto homeowners. Learn insider secrets to get buyers flooding through your door and sell for top dollar.",
+      "Join this unique speed-dating style event with Toronto's top experts to get insider info, real answers, and a clear plan for buying your first home.",
     keywords:
-      "Toronto real estate, home selling workshop, real estate event, home sellers",
+      "Toronto real estate, first-time buyer seminar, home buying event, Toronto buyers",
   },
   event: {
-    title: "Express Lane To Home Selling",
-    date: "Wednesday, July 9th, 2025",
-    time: "6:30 PM",
-    location: "Downtown Toronto, King & Spadina Area",
-    locationNote: "(location released after registration)",
+    title: "Toronto First-Time Buyer Speed Seminar",
+    date: "Thursday, May 29th, 2025",
+    time: "6:30 PM – 8:00 PM",
+    location: "Toronto Location (details upon registration)",
+    locationNote: "(full address shared after registration)",
     totalSpots: 25,
-    spotsLeft: 23,
-    duration: "90 minutes",
-    cost: "FREE",
+    spotsLeft: 25,
+    duration: "90-minute intensive event + networking",
+    cost: "FREE (includes drinks, snacks & take-home resources)",
   },
   header: {
-    eventDate: "Wednesday, July 9th, 2025 at 6:30 PM",
-    spotsAvailable: "Only 23 25 Spots Available",
-    ctaText: "Claim Your Free Spot",
+    eventDate: "Thursday, May 29th, 2025 | 6:30 PM – 8:00 PM",
+    spotsAvailable: "Only 25 <span class='highlight'>Spots</span> Available – Last event sold out in 48 hours",
+    ctaText: "RESERVE YOUR SEAT NOW",
+    navigationBrand: "Toronto First-Time Buyer Seminar",
   },
   hero: {
-    badge: "🚨Exclusive Event For Mississauga Home Sellers🚨",
+    badge: "",
     headline:
-      "Learn Why Most Toronto Homes Get <span class='highlight'>Completely Ignored By Buyers</span>... While Certain Sellers <span class='highlight'>Get Bidding Wars And Top Dollar Sales</span> - <em>For Free In Under 90 Mins</em>",
+      "Get <span class='highlight'>Expert Answers</span> to All Your Home Buying Questions in Just One Evening",
     subtitle:
-      "If you're <strong>planning to sell In The Next 24 Months</strong> and worried about sitting empty with <em>zero showings</em>, this <strong>free 90-minute event</strong> reveals the \"insider secrets\" that get <em>buyers flooding through your door.</em> Meet 5 industry experts who'll show you exactly <strong>what Your Home Is Worth</strong> and walk away with your personal game plan to <strong>get buyers fighting over your house.</strong>",
-    ctaText: "Claim Your Free Spot",
-    ctaSubtext: "Food & Drink Included",
-    urgencyText: "Only 23 25 Spots Left!<br>Don't miss out!",
+      "Join this unique speed-dating style event with Toronto's top experts. Get insider info, real answers to your fears, and a clear plan—even if you're overwhelmed by the entire process.",
+    ctaText: "RESERVE YOUR SEAT NOW",
+    ctaSubtext: "",
+    urgencyText: "",
   },
   eventDetails: {
-    sectionTitle:
-      "Ready To Learn How To Get Your Home Sold? Secure Your Seat Below",
-    ctaText: "Claim Your Free Spot",
-    foodIncluded: "food & drink included",
+    sectionTitle: "Event Details",
+    date: "Thursday, May 29th, 2025 | 6:30 PM – 8:00 PM",
+    location: "Exclusive Toronto venue (full address shared after registration)",
+    duration: "90-minute intensive event + networking",
+    cost: "FREE (includes drinks, snacks & take-home resources)",
+    urgencyMessage: "Only 25 <span class='highlight'>Spots</span> Available – Last event sold out in 48 hours",
+    ctaText: "RESERVE YOUR SEAT NOW",
   },
   problems: {
-    title: "Dear Frustrated Toronto Homeowner",
+    title: "Are You Facing These First-Time Buyer Roadblocks?",
     items: [
-      "You're <strong>WATCHING</strong> other homes get zero showings while prices keep dropping across Toronto",
-      "You're <strong>TERRIFIED</strong> you'll be forced to sell for way less than your house is worth",
-      "You're <strong>STRESSED</strong> about spending money fixing things when you're not even sure your house will sell",
-      "And you're <strong>SICK</strong> of getting different advice from everyone when you just need to know what actually works",
+      { icon: "fas fa-search", text: "Too much conflicting advice from Google, friends, and family" },
+      { icon: "fas fa-exclamation-triangle", text: "Afraid of making a costly mistake you can't fix" },
+      { icon: "fas fa-comments", text: "Tired of generic seminars that never answer your real questions" },
+      { icon: "fas fa-stopwatch", text: "Frustrated with busy professionals who don't explain things" },
+      { icon: "fas fa-brain", text: "Overwhelmed by info overload and don't know where to start" },
+      { icon: "fas fa-money-bill-wave", text: "Unsure how to actually save money or succeed in a tough Toronto market" },
     ],
   },
-  successStatement:
-    "Yet, We're Getting Our Sellers Flooded With Buyers And Full-Price Offers While Other Homes Sit Dead On The Market!",
   solutions: {
-    title:
-      'Why Our "Express Lane To Home Selling" Event Is <em>THE BEST Path</em> To Success..',
+    title: "Here’s What You’ll Get in This Exclusive Event",
+    subtitle: "Real answers, real strategies, and a real plan—for Toronto buyers like you.",
     items: [
-      "<strong>DISCOVER</strong> the 3 secrets that get buyers flooding through your door (while others sit empty)",
-      "<strong>LEARN</strong> which $500 fixes add $15,000+ to your sale price (and which ones waste money)",
-      "<strong>GET</strong> the exact pricing strategy that triggers multiple offers in this market",
-      "<strong>WALK AWAY</strong> knowing exactly what to do tomorrow to start getting showings",
-      "<strong>PAY NOTHING</strong> and leave with a complete roadmap to sell fast for top dollar",
-      "<strong>TOTALLY FREE</strong> (plus we'll feed you while you learn)",
+      { icon: "fas fa-question-circle", text: "The key questions to ask your mortgage broker that could save you thousands" },
+      { icon: "fas fa-exclamation-circle", text: "Red flags every home inspector looks for (and what to avoid in Toronto)" },
+      { icon: "fas fa-lightbulb", text: "Designer tips to see a home's potential—without blowing your budget" },
+      { icon: "fas fa-wallet", text: "How to structure your finances to WIN in bidding wars" },
+      { icon: "fas fa-calendar-alt", text: "A simple Toronto buying timeline step-by-step" },
+      { icon: "fas fa-users", text: "Real solutions from experts who've helped 200+ first-time buyers" },
     ],
   },
   targetAudience: {
-    title: "Who Is This Event For?",
+    title: "This Event Is Designed For...",
+    subtitle: "If you see yourself below, you can’t miss this night.",
     items: [
-      "You're <strong>PLANNING</strong> to sell within 24 months and want to be prepared (not panicked)",
-      "You're <strong>TIRED</strong> of guessing what your house is worth or what fixes to make",
-      "You're <strong>OVERWHELMED</strong> by all the different steps to sell a house",
-      "You're <strong>UNSURE</strong> which home improvements will pay off and which are a waste",
-      "You want <strong>REAL ADVICE</strong> from experts (not random tips from the internet)",
+      { icon: "fas fa-home", text: "First-time buyers feeling lost, nervous, or overwhelmed" },
+      { icon: "fas fa-question", text: "People with questions big or small—no judgment, no rush" },
+      { icon: "fas fa-user-friends", text: "Those tired of advice that doesn’t fit your life" },
+      { icon: "fas fa-network-wired", text: "Anyone wanting support from experts and fellow buyers in Toronto" },
     ],
-    note: "...And perfect even if selling is still months away (there is no commitment required)",
+    note: "Whether you’re just getting started or ready to buy soon, this is the night that will make you confident, not confused.",
   },
   comparison: {
     painfulWay: {
-      title: "The PAINFUL Way (Most People)",
-      subtitle: "Here's what people normally do..",
+      title: "The Painful Way",
+      subtitle: "Doing It the Hard Way (Most Buyers Do This)",
       points: [
-        "<strong>Book multiple one-off appointments</strong> with agents, stagers, contractors, and photographers—dragging it out for weeks or months.",
-        "<strong>Get conflicting advice</strong> from social media, online forums, and well-meaning friends.",
-        "<strong>Waste hours online researching</strong> comparable sales, renovation costs, and market trends—with no real clarity.",
+        { icon: "fas fa-random", text: "Try to figure it all out alone and make expensive mistakes" },
+        { icon: "fas fa-search-dollar", text: "Miss out on savings by not knowing what to ask lenders/agents" },
+        { icon: "fas fa-sticky-note", text: "Depend on generic online info (that doesn't fit Toronto)" },
+        { icon: "fas fa-dizzy", text: "Stress about timelines, bids, hidden costs, and get overwhelmed" },
       ],
     },
     expressWay: {
-      title: "THE EXPRESS LANE WAY (You)",
-      subtitle: "Here's what successful sellers do..",
+      title: "The Fast Track",
+      subtitle: "With Trusted Toronto Experts All In One Night",
       points: [
-        "<strong>Save Time</strong> by meeting all of the pros in one session and asking personalized questions.",
-        "<strong>Feel Confident</strong> in their pricing and strategy by getting advice from industry experts who are active in the market.",
-        "<strong>Interview To Make The Right Choice.</strong> Talk to multiple experts before making a final decision to ensure they are making the right choice.",
+        { icon: "fas fa-check-double", text: "Get every step explained by professionals who care" },
+        { icon: "fas fa-cogs", text: "Discover tools and checklists only available to clients" },
+        { icon: "fas fa-comments", text: "Ask everything you want without being rushed" },
+        { icon: "fas fa-rocket", text: "Leave with an easy-to-follow plan for your Toronto home journey" },
       ],
     },
   },
   benefits: {
-    title:
-      "immerse yourself in This Live Event to finally feel confident selling your home.",
-    subtitle: "At this live event you can look forward to:",
+    title: "What You’ll Walk Away With",
+    subtitle: "Leave with confidence, connections, and the exact steps for your next move.",
     items: [
-      {
-        title: "Real Numbers",
-        description:
-          "Understand exactly what your home is worth, what improvements add value, and how to price strategically.",
-      },
-      {
-        title: "Expert Clarity",
-        description:
-          "Get unfiltered advice from trusted pros who aren't trying to sell you anything.",
-      },
-      {
-        title: "Confidence to Move Forward",
-        description:
-          "Walk away with clear next steps, whether you're ready to sell now or 6 months from now.",
-      },
-      {
-        title: "A Curated Support Team",
-        description:
-          "Build relationships with industry experts who can guide you when the time is right.",
-      },
+      { icon: "fas fa-map", text: "Your own Toronto buying timeline & checklist" },
+      { icon: "fas fa-briefcase", text: "A grab bag of take-home resources and expert contacts" },
+      { icon: "fas fa-handshake", text: "Direct answers from a mortgage broker, home inspector, designer, and planner" },
+      { icon: "fas fa-users", text: "Connections to other first-time buyers on your path" },
+      { icon: "fas fa-lightbulb", text: "Peace of mind that you know exactly what to do next" },
+      { icon: "fas fa-phone", text: "Ongoing support from Toronto’s trusted first-time buyer team" },
     ],
   },
   speakers: {
-    title: "Get A Sneak Peek Into The Event!",
-    subtitle:
-      "<strong>Meet Your Hosts & Experts —</strong> This isn't just another info session, it's your chance to connect directly with the experts who can help you sell your home the right way.",
+    title: "Meet Your Event Hosts",
+    subtitle: "Toronto’s Leading Buyer Advocates & Local Industry Experts",
     experts: [
       {
-        name: "Erica Reddy-Choquette & Sarah Meng",
-        title: "Award-Winning Toronto Realtors",
-        description:
-          "Local market experts helping sellers maximize their home's value.",
-        points: [
-          "Understand which Toronto neighbourhoods are hot right now—and pricing strategies that work",
-          "Learn how to position your home to sell quickly and avoid common listing mistakes",
-        ],
-      },
-      {
-        name: "Speaker Announcement Coming Soon",
-        title: "Mortgage Broker",
-        description:
-          "Coordinate your sale and next purchase like a pro, without timing headaches.",
-        points: [
-          "Understand bridge loans, extended closings, and how to buy before you sell.",
-          "Learn how to avoid moving twice or ending up without a home.",
-        ],
-      },
-      {
-        name: "Speaker Announcement Coming Soon",
-        title: "Staging Specialist",
-        description:
-          "Revealing which $500 improvements can add $15,000+ to your sale price",
-        points: [
-          "Find out which improvements buyers actually care about — and which to skip.",
-          "Get a checklist of fast, affordable staging wins for every room in your home.",
-        ],
-      },
-      {
-        name: "Speaker Announcement Coming Soon",
-        title: "Handyman",
-        description:
-          "Fix what matters, skip what doesn't, straight from a seasoned pro.",
-        points: [
-          "Discover which low-cost repairs make your listing shine (and which are a waste).",
-          "Avoid red flags that scare buyers — without over-renovating.",
-        ],
-      },
-    ],
-  },
-  eventSummary: {
-    title: "Join Us LIVE For this Express Lane To Home Selling Live Event",
-    subtitle: "Here's everything to look forward to:",
-    date: "Thursday, May 29, 2025 at 6:30 PM",
-    location: "Downtown Toronto, King & Spadina Area",
-    features: [
-      "Private access to industry experts all in one room: Staging Specialist, Mortgage Specialist, Handyman, Realtors",
-      "Action plan to move forward",
-      "Networking, snacks & beverages",
-      "Zero pressure, real answers",
-    ],
-    ctaText: "Claim Your Free Spot",
-    note: "join us live in person!",
-    limitedOffer: "*Limited Time Offer*",
-  },
-  faq: {
-    title: "Frequently asked questions.",
-    subtitle:
-      "All your questions answered so you can make the right decision before grabbing your tickets!",
-    questions: [
-      {
-        question: "What is the format of the event?",
-        answer:
-          "You'll rotate through 5 stations (like speed dating), each with a different expert. There will be time before and after to mingle.",
-      },
-      {
-        question: "Where is it?",
-        answer: "Downtown Toronto. Address sent upon registration.",
-      },
-      {
-        question: "How long is it?",
-        answer: "Roughly 90 minutes, starting at 6:30 PM.",
-      },
-      {
-        question: "Is it really free?",
-        answer:
-          "Yes! Just bring your questions and curiosity. Drinks, snacks, and goodies are on us.",
-      },
-      {
-        question: "Do I need to bring anything?",
-        answer: "Just your phone and maybe a notepad. We'll handle the rest.",
-      },
-      {
-        question: "Can I bring a friend or partner?",
-        answer:
-          "Absolutely—just make sure they register separately as we only have room for 25 people.",
-      },
-      {
-        question: "What if I'm not ready to Sell yet?",
-        answer:
-          "That's okay! This is about getting prepared, not pressuring you to sell.",
-      },
-      {
-        question: "How many spots are available?",
-        answer:
-          "We're capping it at 25 people to keep it personal. Register early—spots will go fast.",
-      },
-    ],
-  },
-  registration: {
-    title: "Claim Your Spot Below",
-    urgency: "Only 23 25 Spots Available",
-    note: "Zero pressure, all value. Register for this free Toronto home selling event.",
-  },
-  contact: {
-    agents: [
-      {
         name: "Erica Reddy-Choquette",
-        title: "Broker",
-        phone: "416.587.2782",
-        email: "Erica@EricaReddy.com",
+        title: "Toronto First-Time Buyer Specialist",
+        image: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2d3322d2-1afe-448b-83c7-57b6eb3e9931/DSC00313.jpg",
+        bio: "Guided over 200 Toronto buyers from terrified to thriving—knows every pitfall, tool, and shortcut for your first home.",
+        credentials: [
+          { icon: "fas fa-home", text: "Helped 200+ buyers in Toronto succeed" },
+          { icon: "fas fa-handshake", text: "Expert at turning fear into confidence" },
+          { icon: "fas fa-award", text: "Royal LePage Signature Top Producer" }
+        ]
       },
       {
         name: "Sarah Meng",
-        title: "Realtor",
-        phone: "416-989-2879",
-        email: "sarahmeng@royallepage.ca",
+        title: "Toronto Real Estate Guide & Buyer Advocate",
+        image: "",
+        bio: "Specializes in first-time buying success in Toronto’s toughest markets. Patient, thorough, and explains everything so you get it.",
+        credentials: [
+          { icon: "fas fa-users", text: "200+ first-time buyers guided" },
+          { icon: "fas fa-comments", text: "Known for straight talk and expert answers" }
+        ]
+      },
+      {
+        name: "Plus Live Experts",
+        title: "Mortgage Broker, Home Inspector, Designer, Financial Planner",
+        image: "",
+        bio: "Authentic Toronto professionals here to answer your real questions, one-on-one."
       },
     ],
   },
-  footer: {
-    brokerage: "Royal LePage Signature Realty, Brokerage*",
-    address: "201-8 Sampson Mews, Toronto, ON, M3C 0H5",
-    copyright: "© Copyright 2025. All rights reserved.",
-    privacyPolicy: "https://ericareddy.com/privacy-policy/",
+  faq: {
+    title: "Frequently Asked Questions",
+    subtitle: "Know before you book—no surprises.",
+    questions: [
+      { question: "How long does the seminar last?", answer: "The event runs 90 minutes, including expert rotations and open networking." },
+      { question: "Will there be a sales pitch?", answer: "No! This is real education, not a sales push. We focus on helping first-time buyers understand and succeed." },
+      { question: "Is there any cost or obligation?", answer: "No, it’s completely free. You leave with resources and support—no strings attached." },
+      { question: "What if I don't know where to start?", answer: "That's why we're here. We’ll break everything down so no question is too basic." },
+      { question: "Can I bring a friend or partner?", answer: "Yes, but spots are limited! Please register everyone attending to reserve seats." },
+      { question: "Will this help for buying condos and houses in Toronto?", answer: "Yes. We cover both, including trends and specifics for Toronto’s competitive market." },
+    ],
+  },
+  registration: {
+    title: "Reserve Your Spot – Only 25 Seats!",
+    subtitle: "Secure your place and get your Toronto First-Time Buyer Success Kit",
+    fields: [
+      { field: "name", label: "Full Name", type: "text", required: true, placeholder: "Your name" },
+      { field: "email", label: "Email Address", type: "email", required: true, placeholder: "you@email.com" },
+      { field: "phone", label: "Phone Number", type: "tel", required: true, placeholder: "(416) 555-1234" },
+      { field: "stage", label: "Buying Stage (Optional)", type: "select", required: false, options: ["Just starting", "Searching now", "Ready to buy soon"] },
+    ],
+    ctaText: "SECURE MY SEAT NOW",
+    trustSignals: [
+      { icon: "fas fa-lock", text: "100% privacy—no spam ever" },
+      { icon: "fas fa-users", text: "Limited intimate event for real learning" },
+      { icon: "fas fa-gift", text: "Free Success Kit and grab bag for every attendee" },
+    ],
   },
   modalQuestions: [
     {
       id: "timeline",
-      questionText: "When are you planning to sell your home?",
+      questionText: "When are you hoping to buy?",
       options: [
-        { value: "within_3_months", text: "Within 3 months" },
-        { value: "3_6_months", text: "3-6 months" },
-        { value: "6_12_months", text: "6-12 months" },
-        { value: "over_12_months", text: "Over 12 months" },
-        { value: "just_exploring", text: "Just exploring options" }
-      ]
-    },
-    {
-      id: "property_type",
-      questionText: "What type of property do you own?",
-      options: [
-        { value: "detached_house", text: "Detached House" },
-        { value: "semi_detached", text: "Semi-Detached" },
-        { value: "townhouse", text: "Townhouse" },
-        { value: "condo", text: "Condo/Apartment" },
-        { value: "duplex", text: "Duplex" }
-      ]
+        { value: "0-3_months", text: "Within 3 months" },
+        { value: "3-6_months", text: "36 months from now" },
+        { value: "6-12_months", text: "612 months from now" },
+        { value: "exploring", text: "Just starting to explore" },
+      ],
     },
     {
       id: "biggest_concern",
-      questionText: "What's your biggest concern about selling?",
+      questionText: "What worries you most about buying?",
       options: [
-        { value: "pricing_right", text: "Pricing it right" },
-        { value: "finding_buyers", text: "Finding interested buyers" },
-        { value: "timing", text: "Timing the market" },
-        { value: "repairs_staging", text: "Repairs and staging" },
-        { value: "paperwork", text: "Legal paperwork and process" }
-      ]
-    }
+        { value: "getting_approved", text: "Getting my mortgage approved" },
+        { value: "paying_too_much", text: "Overpaying for a home" },
+        { value: "bidding_wars", text: "Bidding wars and losing out" },
+        { value: "choosing_wrong", text: "Picking the wrong property" },
+        { value: "unknowns", text: "All the info I don’t know" },
+      ],
+    },
+    {
+      id: "property_type",
+      questionText: "What are you hoping to buy?",
+      options: [
+        { value: "condo", text: "Condo/apartment" },
+        { value: "house", text: "Detached or semi-detached house" },
+        { value: "townhouse", text: "Townhouse/rowhouse" },
+        { value: "not_sure", text: "Not sure yet" },
+      ],
+    },
   ],
-  webhook: {
-    url: "https://hook.us1.make.com/your-webhook-url",
-    enabled: true,
-    adminUrl: "https://n8n.salesgenius.co/webhook/workshopupdate"
+  contact: {
+    title: "Questions? Reach Out Anytime",
+    subtitle: "We’re here before, during, and after the event.",
+    agents: [
+      {
+        name: "Erica Reddy-Choquette",
+        title: "First-Time Buyer Seminar Host",
+        phone: "416-587-2782",
+        email: "erica@ericareddy.com",
+        image: "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2d3322d2-1afe-448b-83c7-57b6eb3e9931/DSC00313.jpg",
+        bio: "Contact Erica for any questions or help before the big night.",
+      },
+    ],
+    methods: [
+      { icon: "fas fa-phone", method: "Call", value: "416-587-2782", note: "MonFri, 9AM6PM" },
+      { icon: "fas fa-envelope", method: "Email", value: "erica@ericareddy.com", note: "Replies within 2 hours" },
+    ],
+  },
+  successModal: {
+    title: "You're Registered!",
+    message:
+      "Your spot for the <strong>Toronto First-Time Buyer Speed Seminar</strong> is saved! Check your email soon for event details, location info, and your exclusive Buyer Success Kit.",
+    next_steps: [
+      { icon: "fas fa-envelope", text: "Look for your confirmation email and event details" },
+      { icon: "fas fa-calendar", text: "Add us to your calendar (details inside email)" },
+      { icon: "fas fa-users", text: "Review your Buyer Success Kit so you’re ready with questions" },
+      { icon: "fas fa-phone", text: "Call or email Erica anytime with questions" },
+    ],
+    socialSharing: {
+      title: "Know a friend who’s buying too?",
+      subtitle: "Share this event—help another first-timer avoid mistakes",
+      buttons: [
+        { platform: "facebook", text: "Share on Facebook" },
+        { platform: "twitter", text: "Share on Twitter" },
+        { platform: "email", text: "Forward to a friend" },
+      ],
+    },
+  },
+  footer: {
+    brokerage: "Royal LePage Signature",
+    address: "8 Sampson Mews Unit 201, Toronto, ON, M3C0H5",
+    phone: "416-587-2782",
+    email: "erica@ericareddy.com",
+    legalLinks: [
+      { text: "Privacy Policy", url: "https://ericareddy.com" },
+      { text: "Terms of Service", url: "/terms" },
+      { text: "RECO Information", url: "/reco-info" },
+    ],
+    copyright: "© 2025 Erica Reddy Real Estate. All rights reserved.",
+    disclaimer:
+      "This event is for educational purposes only. Individual results vary. Toronto real estate rules and market conditions may change.",
   },
   deploymentInfo: {
-    repoName: "Toronto-Workshop-Landing",
-    repoUrl: "https://github.com/username/Toronto-Workshop-Landing",
-    netlifyUrl: "http://toronto-workshop.netlify.app",
-    netlifyId: "",
-    tag: "Home Sellers Workshop",
-    ghlWebhookUrl: "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    webhookUrl: "https://n8n.salesgenius.co/webhook/workshopupdate",
-    facebookPixelId: "1057475448873422",
-    salesGeniusAppApi: "",
-    followUpBossEmail: ""
-  },
-  settings: {
-    theme: "dark",
-    primaryColor: "#dc2626",
-    secondaryColor: "#10b981",
-    enableAnimations: true,
-    enableScrollTracking: true,
-    showSpotsCounter: true,
-    glassmorphicHeader: true,
+    repoId: 1013943536,
+    repoName: "Event-488",
+    repoUrl: "https://github.com/arslvn93/Event-488",
+    netlifyUrl: "http://Event-488.netlify.app",
   },
 };
-
-// Export for use in other files
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = config;
-}
